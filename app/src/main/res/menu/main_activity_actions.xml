@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item 
+        	android:id="@+id/action_settings"
+        	android:title="Settings"
+        	          android:showAsAction="ifRoom"
+        	android:icon="@drawable/ic_action_setting"
+        	/>
+    <item android:id="@+id/MenuRateApp" android:title="@string/menu_Rate_app"
+  android:icon="@drawable/ic_star"></item>
+</menu>

@@ -1,0 +1,100 @@
+<h1><span>Using Up Down Counter:</span></h1>
+<p><b><span>1.<span></span></span></b><b><span>Increase the counter: </span></b></p>
+
+<p><span>Swipe right or up on your device to increase the counter.</span></p>
+
+<p><b><span>2.<span></span></span></b><b><span>Decrease the counter: </span></b></p>
+
+<p><span>Swipe left or down on your device to decrease the counter.</span></p>
+
+<p><b><span>3.<span></span></span></b><b><span>Reset counter:</span></b></p>
+
+<p><span>Press down and hold on the screen to reset the counter to zero.</span></p>
+
+<p><b><span>4.<span></span></span></b><b><span>Update counter according to count direction</span></b><span>.</span></p>
+
+<p><span>The update counter button updates the counter according to the count direction setting.</span></p>
+
+<p><b><span>5.<span></span></span></b><b><span>Change background image:</span></b></p>
+
+<p><span>To show a background image when counting click the picture button and select picture from the device gallery, to be shown in the counter background. When the picture is visible you can click the picture button again to remove the picture from background.</span></p>
+
+
+<p><b><span>6.<span> </span></span></b><b><span>Edit title:</span></b></p>
+
+<p><span>To change the title of the counter, press the edit button.</span></p>
+
+<p><b><span>7.<span></span></span></b><b><span>Lock screen:</span></b></p>
+
+<p><span>Lock button locks the screen controls. When the screen is locked press the lock button again to unlock.</span></p>
+
+<h1><span>App Settings:</span></h1>
+
+<p><span>1.<span> </span></span><span>Count Direction: </span></p>
+
+<p><span>Set this setting to “Up” or “Down” to enable ascending and descending counter respectively.</span></p>
+
+<p><span>2.<span> </span></span><span>Mode:</span></p>
+
+<p><span>Set this setting to enable or disable auto count mode. In auto count mode the counter is automatically updated after the specified time in the automode delay setting. When using this setting the counter is stopped after 200 updates. You can start the autocount again by clicking the count button again.</span></p>
+
+<p><span>3.<span> </span></span><span>Automode Delay: </span></p>
+
+<p><span>Specify the delay time when counter is in automode.</span></p>
+
+<p><span>4.<span> </span></span><span>Enable Sounds</span></p>
+
+<p><span>Select this setting to play sound on each update.</span></p>
+
+<p><span>5.<span> </span></span><span>Enable Vibration.</span></p>
+
+<p><span>Select this setting to cause phone to vibrate on each update</span></p>
+
+<p><span>6.<span > </span></span><span>Show Title</span></p>
+
+<p><span>Show or hide title on the top.</span></p>
+
+<p><span>7.<span> </span></span><span>Enable Gestures</span></p>
+
+<p><span>Enable or disable gestures</span></p>
+
+
+<p><span>8.<span> </span></span><span>Enable Volume Keys </span></p>
+
+<p><span>Enable or disable volume key to update the counter.</span></p>
+
+<p><b><u><span><span></span></span></u></b></p>
+
+<h1><span>About Up Down Counter</span></h1>
+
+<p><span>Up Down Counter application helps you maintain a single counter using your phone. Major features of the application are the following.</span></p>
+
+<p><span>1.<span> </span></span><span>Maintain one ascending or descending counter</span></p>
+
+<p><span>2.<span></span></span><span>Play sound on counter change</span></p>
+
+<p ><span>3.<span></span></span><span>Vibrate on counter change</span></p>
+
+<p><span>4.<span></span></span><span>Show an image behind the counter</span></p>
+
+<p><span>5.<span></span></span><span>Lock screen controls</span></p>
+
+<p><span>6.<span></span></span><span>Specify a title of the counter</span></p>
+
+<p><span>7.<span></span></span><span>Auto mode counter, where count changes automatically after specified time</span></p>
+
+<p><span>8.<span></span></span><span>Change count using gestures</span></p>
+
+<p><span>9.<span></span></span><span>Change count using volume key</span></p>
+
+<p><span>10.<span></span></span><span>Reset counter to zero</span></p>
+
+<p><span>11.<span> </span></span><span>Show time of the last counter update</span></p>
+
+<p></span></p>
+
+<h1><span>Version 1.1</span></h1>
+
+<p>Please feel free to give your reviews, feature requests, suggestions or any comments. You can do so from the Rate App menu button on the home screen</span></p>
+
+

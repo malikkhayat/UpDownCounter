@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainframe"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bggrad"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.tablewindows.updowncounter.FullscreenActivity" >
+
+      <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+         <ListView
+              android:id="@+id/listofCounts"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent">
+         </ListView>
+ 
+</LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/bottomad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        
+        
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/ad_unit_id"  />
+</LinearLayout>
+
+</RelativeLayout>

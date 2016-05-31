@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainframe"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bggrad"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.tablewindows.updowncounter.FullscreenActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/dashboard"
+        android:layout_above="@+id/bottomad" >
+ 		
+ 		<ImageView
+ 		    android:id="@+id/wallpaper"
+ 		    android:layout_width="fill_parent"
+ 		    android:layout_height="fill_parent"
+ 		    android:scaleType="fitCenter" />
+ 
+       	        <LinearLayout
+       	            android:id="@+id/toprightbtn"
+       	            android:layout_width="match_parent"
+       	            android:layout_height="wrap_content"
+       	            android:layout_alignParentTop="true"
+       	            android:background="@color/titlebar"
+       	            android:orientation="horizontal"
+       	            android:paddingTop="0dp" >
+
+        	        <ImageButton
+        	            android:id="@+id/cmdTitle"
+        	            android:layout_width="wrap_content"
+        	            android:layout_height="wrap_content"
+        	            android:layout_gravity="top"
+        	            android:background="@drawable/bgtrans"
+        	            android:onClick="chgTitle"
+        	            android:src="@drawable/ic_edit" />
+       	            
+     	            <TextView
+     	                android:id="@+id/txtTitle"
+     	                android:layout_width="wrap_content"
+     	                android:layout_height="wrap_content"
+     	                android:layout_gravity="left|center_vertical"
+     	                android:layout_weight="5"
+     	                android:text="Counter"
+     	                android:textAppearance="?android:attr/textAppearanceMedium"
+     	                android:textColor="@color/white" />
+
+       	        <RelativeLayout
+       	            android:id="@+id/toprightbtn1"
+       	            android:layout_width="wrap_content"
+       	            android:layout_height="fill_parent"
+       	            android:layout_alignParentTop="true"
+       	            android:layout_gravity="center_vertical"
+       	            android:layout_weight="3.00"
+       	            android:background="@drawable/bgtrans"
+       	            android:orientation="horizontal"
+       	            android:paddingTop="0dp" >
+
+				    <TextView
+				        android:id="@+id/txtCountertop"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_centerInParent="true"
+				        android:layout_centerVertical="true"
+				        android:layout_gravity="center"
+				        android:layout_weight="9"
+				        android:gravity="right|center_vertical"
+				        android:keepScreenOn="true"
+				        android:text="@string/dummy_content"
+				        android:textColor="@color/white"
+				        android:textStyle="bold"
+				        android:visibility="gone" />
+
+				    </RelativeLayout>
+
+       	        <RelativeLayout
+       	            android:id="@+id/toprightbtn2"
+       	            android:layout_width="wrap_content"
+       	            android:layout_height="wrap_content"
+       	            android:layout_alignParentTop="true"
+       	            android:layout_gravity="top"
+       	            android:background="@drawable/bgtrans"
+       	            android:orientation="horizontal"
+       	            android:paddingTop="0dp" >
+
+
+</RelativeLayout>
+
+       	        <ImageButton
+       	            android:id="@+id/cmdCounter"
+       	            android:layout_width="wrap_content"
+       	            android:layout_height="wrap_content"
+       	            android:layout_gravity="right|center_vertical"
+       	            android:background="@drawable/bgtrans"
+       	            android:onClick="btnPressed"
+       	            android:paddingRight="5dp"
+       	            android:src="@drawable/ic_count"
+       	            android:text="Count" />
+
+	</LinearLayout>
+       	        
+       	        
+        
+    <TextView
+        android:id="@+id/txtCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/bottombtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="25dp" >
+
+</LinearLayout>
+		        
+	        <LinearLayout
+	            android:id="@+id/bottomrightbtn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerInParent="false"
+	            android:gravity="bottom"
+	            android:orientation="vertical"
+	            android:paddingBottom="5dp"
+	            android:paddingLeft="5dp" >
+
+
+	 	        
+	       		<ImageButton
+	        	    android:id="@+id/cmdSave"
+	        	    android:layout_width="wrap_content"
+	        	    android:layout_height="wrap_content"
+	        	    android:background="@drawable/bgtrans"
+	        	    android:onClick="saveCtr"
+	        	    android:paddingBottom="3dp"
+	        	    android:src="@drawable/ic_savectr" />
+	        	
+	        	
+
+		        
+		        <ImageButton
+		            android:id="@+id/cmdWallpaper"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/bgtrans"
+		            android:onClick="chgWallpaper"
+		            android:paddingBottom="3dp"
+		            android:src="@drawable/ic_pic_update" />
+		        
+		        <ImageButton
+		            android:id="@+id/cmdLock"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/bgtrans"
+		            android:onClick="chgLock"
+		            android:src="@drawable/ic_unlocked" />
+	
+	        <ImageButton
+		            android:id="@+id/cmdReport"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:background="@drawable/bgtrans"
+		            android:onClick="shwRpt"
+		            android:src="@drawable/ic_showrpt" />		        
+		        
+		        	        
+	</LinearLayout>
+
+	        <LinearLayout
+	            android:id="@+id/bottomleftbtn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:orientation="vertical" >
+
+	        	<ImageButton
+	        	    android:id="@+id/cmdHelp"
+	        	    android:layout_width="wrap_content"
+	        	    android:layout_height="wrap_content"
+	        	    android:background="@drawable/bgtrans"
+	        	    android:onClick="shwHelp"
+	        	    android:paddingBottom="3dp"
+	        	    android:src="@drawable/ic_help" />
+	 	        
+
+	        	
+	        	
+	 	        <ImageButton
+	 	            android:id="@+id/cmdSettings"
+	 	            android:layout_width="wrap_content"
+	 	            android:layout_height="wrap_content"
+	 	            android:background="@drawable/bgtrans"
+	 	            android:onClick="shwSettings"
+	 	            android:paddingBottom="3dp"
+	 	            android:src="@drawable/ic_action_setting" />
+		        
+
+		        
+	</LinearLayout>
+	        
+	               	        <LinearLayout
+	               	            android:id="@+id/botrighttxt"
+	               	            android:layout_width="wrap_content"
+	               	            android:layout_height="wrap_content"
+	               	            android:layout_alignParentBottom="true"
+	               	            android:layout_alignParentRight="true"
+	               	            android:orientation="vertical"
+	               	            android:paddingRight="10dp"
+	               	            android:paddingTop="80dp" >
+	               	            
+	               	            <TextView
+	               	                android:id="@+id/txtLastupdate"
+	               	                android:layout_width="wrap_content"
+	               	                android:layout_height="wrap_content"
+	               	                android:paddingBottom="8dp"
+	               	                android:paddingRight="25dp"
+	               	                android:text="Last Update"
+	               	                android:textColor="@color/white" />
+
+	               	        </LinearLayout>
+
+	               	        <LinearLayout
+	               	            android:id="@+id/toprightbtnMode"
+	               	            android:layout_width="wrap_content"
+	               	            android:layout_height="wrap_content"
+	               	            android:layout_alignParentRight="true"
+	               	            android:layout_below="@+id/toprightbtn"
+	               	            android:background="@drawable/bgtrans"
+	               	            android:orientation="horizontal"
+ 	               	            android:visibility="gone">
+
+	               	            <TextView
+	               	                android:id="@+id/txtMode"
+	               	                android:layout_width="fill_parent"
+	               	                android:layout_height="wrap_content"
+	               	                android:layout_gravity="top|center_vertical|center_horizontal"
+	               	                android:background="@drawable/bgtrans"
+	               	                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	               	        </LinearLayout>
+
+   </RelativeLayout>        
+        
+    <LinearLayout
+        android:id="@+id/bottomad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+</LinearLayout>
+
+</RelativeLayout>

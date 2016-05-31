@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:summary="Counter Setting"
+        android:title="Counter Settings" >
+
+    <ListPreference
+            android:key="direction"
+            android:entries="@array/direction"
+            android:entryValues="@array/direction"
+              android:defaultValue="Up"
+            android:summary="Select count direction - upwards or downwards"
+            android:title="Direction" />
+    
+        <ListPreference
+            android:entries="@array/mode"
+            android:entryValues="@array/mode"
+            android:key="mode"
+            android:defaultValue="Manual"
+            android:summary="Select count mode - manual or automatic"
+            android:title="Mode" />
+        
+            <ListPreference
+            android:key="amdelay"
+            android:entries="@array/automodedelay"
+            android:entryValues="@array/automodedelay"
+              android:defaultValue="1 Second"
+            android:summary="Select delay minutes when in auto mode - default is 1 second"
+            android:title="Automode Delay" />
+            
+     </PreferenceCategory>
+     
+     <PreferenceCategory
+        android:summary="Application Setting"
+        android:title="Application Settings" >       
+        
+         <CheckBoxPreference 
+            android:key="pref_sound"
+            android:summary="Enable or disable sound when counter changes"
+            android:title="Enable Sound" 
+            android:defaultValue="false"
+        />
+
+        <CheckBoxPreference 
+            android:key="pref_vibrate"
+            android:summary="Enable or disable vibration when counter changes"
+            android:title="Enable Vibration" 
+            android:defaultValue="false"
+        /> 
+       
+        <CheckBoxPreference 
+            android:key="pref_title"
+            android:summary="Show or hide counter title"
+            android:title="Show Title" 
+            android:defaultValue="true"
+        /> 
+
+        <CheckBoxPreference 
+            android:key="pref_gesture"
+            android:summary="Enable or disable gestures for updating the counter"
+            android:title="Enable Gestures" 
+            android:defaultValue="true"    />
+
+                <CheckBoxPreference 
+            android:key="pref_volkey"
+            android:summary="Enable or disable volume button for updating the counter"
+            android:title="Enable volume keys" 
+            android:defaultValue="false"    />
+        
+        <CheckBoxPreference 
+            android:key="pref_lupdate"
+            android:summary="Show or hide last update time"
+            android:title="Show Last Update" 
+            android:defaultValue="false"
+        /> 
+                
+</PreferenceCategory>        
+</PreferenceScreen>
+
